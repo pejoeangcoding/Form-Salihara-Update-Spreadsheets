@@ -231,7 +231,7 @@ document.addEventListener('DOMContentLoaded', () => {
         pesanWa += `\n*Total:* ${formatRupiah(totalHargaPesanan)}\n\n`;
         pesanWa += `Mohon tunggu konfirmasi dari kami ya kak.`;
 
-        const phoneNumber = '6285283212487';
+        const phoneNumber = '6287859697616';
         const waUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(pesanWa)}`;
         
         window.open(waUrl, '_blank');
