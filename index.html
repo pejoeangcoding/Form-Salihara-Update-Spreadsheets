@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemesanan Menu - Pecel Ayam & Lele Salihara</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="neon-box">
+    <h1 class="neon-text">Pecel Ayam & Lele Salihara</h1>
+    <p class="neon-jargon">Cita Rasa Lokal dengan Tampilan Kekinian</p>
+</div>
+    </header>
+
+    <main>
+        <div class="form-container">
+            <h2 class="animate__animated animate__fadeInDown">Form Pemesanan</h2>
+            <div class="input-group">
+                <input type="text" id="namaPelanggan" placeholder="isi namanya dulu ya kak....." required>
+            </div>
+
+            <div class="menu-section animate__animated animate__fadeInUp">
+                <h2>Menu Utama</h2>
+                <div class="menu-carousel">
+                    <div class="menu-item glassmorphism-card" data-menu="Pecel Ayam Paha Atas">
+                        <img src="https://i.ibb.co.com/CK6W7Z8g/pecel-ayam-paha.jpg" alt="Pecel Ayam Paha Atas">
+                        <h4>Pecel Ayam Paha Atas</h4>
+                        <p class="harga">Rp. 18.000</p>
+                        <div class="item-controls" data-menu="Pecel Ayam Paha Atas">
+                            <button class="btn-qty" data-action="decrement">-</button>
+                            <span class="qty-display">0</span>
+                            <button class="btn-qty" data-action="increment">+</button>
+                        </div>
+                        <div class="sambal-options">
+                            <h5>Varian Sambal</h5>
+                            <div class="sambal-pilihan">
+                                <div class="sambal-option">
+                                    <button class="btn-sambal" data-sambal="Merah">Merah</button>
+                                    <div class="sambal-controls">
+                                        <button class="btn-qty-sambal" data-action="decrement" data-sambal="Merah">-</button>
+                                        <span class="qty-display-sambal" data-sambal="Merah">0</span>
+                                        <button class="btn-qty-sambal" data-action="increment" data-sambal="Merah">+</button>
+                                    </div>
+                                </div>
+                                <div class="sambal-option">
+                                    <button class="btn-sambal" data-sambal="Ijo">Ijo</button>
+                                    <div class="sambal-controls">
+                                        <button class="btn-qty-sambal" data-action="decrement" data-sambal="Ijo">-</button>
+                                        <span class="qty-display-sambal" data-sambal="Ijo">0</span>
+                                        <button class="btn-qty-sambal" data-action="increment" data-sambal="Ijo">+</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-item glassmorphism-card" data-menu="Pecel Ayam Paha Bawah">
+                        <img src="https://i.ibb.co.com/CK6W7Z8g/pecel-ayam-paha.jpg" alt="Pecel Ayam Paha Bawah">
+                        <h4>Pecel Ayam Paha Bawah</h4>
+                        <p class="harga">Rp. 18.000</p>
+                        <div class="item-controls" data-menu="Pecel Ayam Paha Bawah">
+                            <button class="btn-qty" data-action="decrement">-</button>
+                            <span class="qty-display">0</span>
+                            <button class="btn-qty" data-action="increment">+</button>
+                        </div>
+                        <div class="sambal-options">
+                            <h5>Varian Sambal</h5>
+                            <div class="sambal-pilihan">
+                                <div class="sambal-option">
+                                    <button class="btn-sambal" data-sambal="Merah">Merah</button>
+                                    <div class="sambal-controls">
+                                        <button class="btn-qty-sambal" data-action="decrement" data-sambal="Merah">-</button>
+                                        <span class="qty-display-sambal" data-sambal="Merah">0</span>
+                                        <button class="btn-qty-sambal" data-action="increment" data-sambal="Merah">+</button>
+                                    </div>
+                                </div>
+                                <div class="sambal-option">
+                                    <button class="btn-sambal" data-sambal="Ijo">Ijo</button>
+                                    <div class="sambal-controls">
+                                        <button class="btn-qty-sambal" data-action="decrement" data-sambal="Ijo">-</button>
+                                        <span class="qty-display-sambal" data-sambal="Ijo">0</span>
+                                        <button class="btn-qty-sambal" data-action="increment" data-sambal="Ijo">+</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-item glassmorphism-card" data-menu="Pecel Ayam Dada">
+                        <img src="https://i.ibb.co.com/BHJC9YKn/pecel-ayam-dada.jpg" alt="Pecel Ayam Dada">
+                        <h4>Pecel Ayam Dada</h4>
+                        <p class="harga">Rp. 18.000</p>
+                        <div class="item-controls" data-menu="Pecel Ayam Dada">
+                            <button class="btn-qty" data-action="decrement">-</button>
+                            <span class="qty-display">0</span>
+                            <button class="btn-qty" data-action="increment">+</button>
+                        </div>
+                        <div class="sambal-options">
+                            <h5>Varian Sambal</h5>
+                            <div class="sambal-pilihan">
+                                <div class="sambal-option">
+                                    <button class="btn-sambal" data-sambal="Merah">Merah</button>
+                                    <div class="sambal-controls">
+                                        <button class="btn-qty-sambal" data-action="decrement" data-sambal="Merah">-</button>
+                                        <span class="qty-display-sambal" data-sambal="Merah">0</span>
+                                        <button class="btn-qty-sambal" data-action="increment" data-sambal="Merah">+</button>
+                                    </div>
+                                </div>
+                                <div class="sambal-option">
+                                    <button class="btn-sambal" data-sambal="Ijo">Ijo</button>
+                                    <div class="sambal-controls">
+                                        <button class="btn-qty-sambal" data-action="decrement" data-sambal="Ijo">-</button>
+                                        <span class="qty-display-sambal" data-sambal="Ijo">0</span>
+                                        <button class="btn-qty-sambal" data-action="increment" data-sambal="Ijo">+</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-item glassmorphism-card" data-menu="Pecel Ayam Sayap">
+                        <img src="https://i.ibb.co.com/BHJC9YKn/pecel-ayam-dada.jpg" alt="Pecel Ayam Sayap">
+                        <h4>Pecel Ayam Sayap</h4>
+                        <p class="harga">Rp. 18.000</p>
+                        <div class="item-controls" data-menu="Pecel Ayam Sayap">
+                            <button class="btn-qty" data-action="decrement">-</button>
+                            <span class="qty-display">0</span>
+                            <button class="btn-qty" data-action="increment">+</button>
+                        </div>
+                        <div class="sambal-options">
+                            <h5>Varian Sambal</h5>
+                            <div class="sambal-pilihan">
+                                <div class="sambal-option">
+                                    <button class="btn-sambal" data-sambal="Merah">Merah</button>
+                                    <div class="sambal-controls">
+                                        <button class="btn-qty-sambal" data-action="decrement" data-sambal="Merah">-</button>
+                                        <span class="qty-display-sambal" data-sambal="Merah">0</span>
+                                        <button class="btn-qty-sambal" data-action="increment" data-sambal="Merah">+</button>
+                                    </div>
+                                </div>
+                                <div class="sambal-option">
+                                    <button class="btn-sambal" data-sambal="Ijo">Ijo</button>
+                                    <div class="sambal-controls">
+                                        <button class="btn-qty-sambal" data-action="decrement" data-sambal="Ijo">-</button>
+                                        <span class="qty-display-sambal" data-sambal="Ijo">0</span>
+                                        <button class="btn-qty-sambal" data-action="increment" data-sambal="Ijo">+</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-item glassmorphism-card" data-menu="Pecel Lele">
+                        <img src="https://i.ibb.co.com/ycVB8DxL/images-2.jpg" alt="Pecel Lele">
+                        <h4>Pecel Lele</h4>
+                        <p class="harga">Rp. 18.000</p>
+                        <div class="item-controls" data-menu="Pecel Lele">
+                            <button class="btn-qty" data-action="decrement">-</button>
+                            <span class="qty-display">0</span>
+                            <button class="btn-qty" data-action="increment">+</button>
+                        </div>
+                        <div class="sambal-options">
+                            <h5>Varian Sambal</h5>
+                            <div class="sambal-pilihan">
+                                <div class="sambal-option">
+                                    <button class="btn-sambal" data-sambal="Merah">Merah</button>
+                                    <div class="sambal-controls">
+                                        <button class="btn-qty-sambal" data-action="decrement" data-sambal="Merah">-</button>
+                                        <span class="qty-display-sambal" data-sambal="Merah">0</span>
+                                        <button class="btn-qty-sambal" data-action="increment" data-sambal="Merah">+</button>
+                                    </div>
+                                </div>
+                                <div class="sambal-option">
+                                    <button class="btn-sambal" data-sambal="Ijo">Ijo</button>
+                                    <div class="sambal-controls">
+                                        <button class="btn-qty-sambal" data-action="decrement" data-sambal="Ijo">-</button>
+                                        <span class="qty-display-sambal" data-sambal="Ijo">0</span>
+                                        <button class="btn-qty-sambal" data-action="increment" data-sambal="Ijo">+</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-section animate__animated animate__fadeInUp">
+                <h2>Extra Menu</h2>
+                <div class="menu-carousel">
+                    <div class="menu-item glassmorphism-card" data-menu="Tahu">
+                        <img src="https://i.ibb.co.com/RGMwRG63/tahu.jpg" alt="Tahu">
+                        <h4>Tahu</h4>
+                        <p class="harga">Rp. 5.000</p>
+                        <div class="item-controls">
+                            <button class="btn-qty" data-action="decrement">-</button>
+                            <span class="qty-display">0</span>
+                            <button class="btn-qty" data-action="increment">+</button>
+                        </div>
+                    </div>
+                    <div class="menu-item glassmorphism-card" data-menu="Tempe">
+                        <img src="https://i.ibb.co.com/RGMwRG63/tahu.jpg" alt="Tempe">
+                        <h4>Tempe</h4>
+                        <p class="harga">Rp. 5.000</p>
+                        <div class="item-controls">
+                            <button class="btn-qty" data-action="decrement">-</button>
+                            <span class="qty-display">0</span>
+                            <button class="btn-qty" data-action="increment">+</button>
+                        </div>
+                    </div>
+                    <div class="menu-item glassmorphism-card" data-menu="Sate Ati Ampela">
+                        <img src="https://i.ibb.co.com/VYr48YYv/sate-Ati-ampela.jpg" alt="Sate Ati Ampela">
+                        <h4>Sate Ati Ampela</h4>
+                        <p class="harga">Rp. 3.000</p>
+                        <div class="item-controls">
+                            <button class="btn-qty" data-action="decrement">-</button>
+                            <span class="qty-display">0</span>
+                            <button class="btn-qty" data-action="increment">+</button>
+                        </div>
+                    </div>
+                    <div class="menu-item glassmorphism-card" data-menu="Sate Usus">
+                        <img src="https://i.ibb.co.com/5hwwtTZg/sate-usus.jpg" alt="Sate Usus">
+                        <h4>Sate Usus</h4>
+                        <p class="harga">Rp. 3.000</p>
+                        <div class="item-controls">
+                            <button class="btn-qty" data-action="decrement">-</button>
+                            <span class="qty-display">0</span>
+                            <button class="btn-qty" data-action="increment">+</button>
+                        </div>
+                    </div>
+                    <div class="menu-item glassmorphism-card" data-menu="Sate Kulit">
+                        <img src="https://i.ibb.co.com/0ybNmcyB/sate-kulit.jpg" alt="Sate Kulit">
+                        <h4>Sate Kulit</h4>
+                        <p class="harga">Rp. 3.000</p>
+                        <div class="item-controls">
+                            <button class="btn-qty" data-action="decrement">-</button>
+                            <span class="qty-display">0</span>
+                            <button class="btn-qty" data-action="increment">+</button>
+                        </div>
+                    </div>
+                    <div class="menu-item glassmorphism-card" data-menu="Kol Goreng">
+                        <img src="https://i.ibb.co.com/F4f9R1Fp/kol-goreng.jpg" alt="Kol Goreng">
+                        <h4>Kol Goreng</h4>
+                        <p class="harga">Rp. 3.000</p>
+                        <div class="item-controls">
+                            <button class="btn-qty" data-action="decrement">-</button>
+                            <span class="qty-display">0</span>
+                            <button class="btn-qty" data-action="increment">+</button>
+                        </div>
+                    </div>
+                    <div class="menu-item glassmorphism-card" data-menu="Extra Nasi">
+                        <img src="https://i.ibb.co.com/rGphFYJh/extra-nasi.jpg" alt="Extra Nasi">
+                        <h4>Extra Nasi</h4>
+                        <p class="harga">Rp. 3.000</p>
+                        <div class="item-controls">
+                            <button class="btn-qty" data-action="decrement">-</button>
+                            <span class="qty-display">0</span>
+                            <button class="btn-qty" data-action="increment">+</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-section animate__animated animate__fadeInUp">
+                <h2>Minuman</h2>
+                <div class="menu-carousel">
+                    <div class="menu-item glassmorphism-card" data-menu="Es Teh Manis">
+                        <img src="https://i.ibb.co.com/4R00XsVJ/es-teh-manis.jpg" alt="Es Teh Manis">
+                        <h4>Es Teh Manis</h4>
+                        <p class="harga">Rp. 3.000</p>
+                        <div class="item-controls">
+                            <button class="btn-qty" data-action="decrement">-</button>
+                            <span class="qty-display">0</span>
+                            <button class="btn-qty" data-action="increment">+</button>
+                        </div>
+                    </div>
+                    <div class="menu-item glassmorphism-card" data-menu="Es Jeruk">
+                        <img src="https://i.ibb.co.com/3y70cbcN/es-jeruk.jpg" alt="Es Jeruk">
+                        <h4>Es Jeruk</h4>
+                        <p class="harga">Rp. 5.000</p>
+                        <div class="item-controls">
+                            <button class="btn-qty" data-action="decrement">-</button>
+                            <span class="qty-display">0</span>
+                            <button class="btn-qty" data-action="increment">+</button>
+                        </div>
+                    </div>
+                    <div class="menu-item glassmorphism-card" data-menu="Air Mineral">
+                        <img src="https://i.ibb.co.com/tMJcgvCd/air-mineral.jpg" alt="Air Mineral">
+                        <h4>Air Mineral</h4>
+                        <p class="harga">Rp. 5.000</p>
+                        <div class="item-controls">
+                            <button class="btn-qty" data-action="decrement">-</button>
+                            <span class="qty-display">0</span>
+                            <button class="btn-qty" data-action="increment">+</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="konfirmasiPesanan" class="glassmorphism-card animate__animated animate__fadeInUp">
+                <h3>Konfirmasi Pesanan</h3>
+                <ul id="daftarPesanan"></ul>
+                <div class="total-container">
+                    <p>Total Harga: <span id="totalHarga">Rp. 0</span></p>
+                </div>
+            </div>
+
+            <button id="kirimPesananBtn" class="kirim-btn animate__animated animate__pulse">Kirim Pesanan</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
